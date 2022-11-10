@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<style>
+    h1 {
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>DAFTAR</h1>
+    <hr>
+    <% if (errors) { %>
+        <%    errors.split(',').forEach(x=> { %>
+            <div style="color:red">
+                <%= x %>
+            </div>
+        <% }) %>
+        <% } %>
+    <form action="/register" method="post">
+        <div class="mb-3">
+            <label for="exampleInputUserName1" class="form-label">Username</label>
+            <input name="userName" type="userName" class="form-control" id="exampleInputUserName1" aria-describedby="userNameHelp" placeholder="Ex: Burhan">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input name="password" type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+           <label for="exampleInputRole1" class="form-label">Role</label>
+           <input name="role" type="role" class="form-control" id="exampleInputRole1" aria-describedby="roleHelp" placeholder="Ex: Admin">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+    <a href="/login">Already have an acoount? Click Here</a>
+</body>
+</html>

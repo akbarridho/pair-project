@@ -1,0 +1,47 @@
+[
+  {
+      "name":"Bagus Rizky Setiawan",
+      "position":"CEO",
+      "age":30,
+      "education":"Master Degree",
+      "email":"bagusrs@company.com",
+      "phone_number":"0812345678",
+      "profile_picture":"https://asset.kompas.com/crops/gS7lTQepzXZtoUDNn6VnS4rvk1U=/29x18:1300x866/750x500/data/photo/2021/01/05/5ff3f5421b59b.jpg"
+  },
+  {
+      "name":"Dito Bagus Prasetio",
+      "position":"CMO",
+      "age":35,
+      "education":"Master Degree",
+      "email":"ditobp@company.com",
+      "phone_number":"0878999555",
+      "profile_picture":"https://lh3.googleusercontent.com/proxy/4sB8obTMCa22vlOBbiWZmxECFyBsS2oTLOAu4KDz0kVZ8i40sSdoEUqzCMh-GffpZcbEkHhgfO4eHK7gqCANgECraJetbFp5cNuKhTkgdOzhEJvWWl4Z-EnhJI7d"
+  },
+  {
+      "name":"Mohammad Idham",
+      "position":"CTO",
+      "age":20,
+      "education":"Bachelor Degree",
+      "email":"midham@company.com",
+      "phone_number":"0813555599",
+      "profile_picture":"https://akcdn.detik.net.id/visual/2015/04/20/23c03727-5161-4501-a737-7285fe1a359c_169.jpg?w=650"
+  },
+  {
+      "name":"Dian Angelina",
+      "position":"CFO",
+      "age":40,
+      "education":"Bachelor Degree",
+      "email":"dangelina@company.com",
+      "phone_number":"0843867585",
+      "profile_picture":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzzgTQ--JaYHC3PiNVwzZKr9P0aEdxktFDjg&usqp=CAU"
+  },
+  {
+      "name":"Aiko Izumi",
+      "position":"Product Manager",
+      "age":50,
+      "education":"Bachelor Degree",
+      "email":"aizumi@company.com",
+      "phone_number":"0859567811",
+      "profile_picture":"https://image.cermati.com/q_70/cgmecuadqhlpbiocrmvc"
+  }
+]

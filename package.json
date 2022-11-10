@@ -1,0 +1,30 @@
+{
+  "name": "employee-app",
+  "version": "1.0.0",
+  "description": "```txt\r Competency :\r - OOP\r - Callback\r - Schema Database PostgreSQL\r - Express\r - EJS\r - Promise\r - Sequelize (ORM)\r ```",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "pg": "^8.8.0",
+    "sequelize": "^6.25.3",
+    "sequelize-cli": "^6.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hck-52-zigzag-fox/employee-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hck-52-zigzag-fox/employee-app/issues"
+  },
+  "homepage": "https://github.com/hck-52-zigzag-fox/employee-app#readme"
+}

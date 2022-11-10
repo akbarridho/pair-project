@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="/employees/add">
+        <label>Name:</label><br>
+        <input type="text" name="name" placeholder="name"></input><br>
+        <br>
+        <label>Position:</label><br>
+        <input type="text" name="position" placeholder="position"></input><br>
+        <br>
+        <label>Education:</label><br>
+        <select name="education">
+            <option selected disabled>Choose your degree</option>
+            <option value="Bachelor Degree">Bachelor Degree</option>
+            <option value="Master Degree">Master Degree</option>
+        </select><br>
+        <br>
+        <label>Email:</label><br>
+        <input type="text" name="email" placeholder="email"></input><br>
+        <br>
+        <label>Phone number:</label><br>
+        <input type="number" name="phone_number" placeholder="phone_number"></input><br>
+        <br>
+        <label>Profile Picture:</label><br>
+        <input type="text" name="profile_picture" placeholder="profile_picture"></input><br>
+        <br>
+        <label>Age:</label><br>
+        <input type="number" name="age" placeholder="age"></input><br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <a href="/logout">Log Out</a>
+</body>
+</html>

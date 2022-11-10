@@ -1,0 +1,17 @@
+- npm init -y
+- npm i express pg ejs sequelize
+- npm i -D sequelize-cli nodemon
+- bikin .gitignore -> node_modules
+- npx sequelize init
+- setup config (bagian development)
+- npx sequelize db:create
+- npx sequelize model:generate --name (nama model harus singular dan paschalcase) --attributes (semua properti dan value) --> buat migration dan model
+- pada folder migration hapus async dan await(ganti jadi return),
+- npx sequelize db:migrate
+- npx sequelize migration:generate --name add-column-genre (jadi ada file add column genre di dalem folder migrations)
+https://sequelize.org/api/v6/class/src/dialects/abstract/query-interface.js~queryinterface
+- Setup file yg baru dalam folder migrations (hapus async dan await, tambah return)
+- npx sequelize db:migrate (buat masukin column yang baru)
+- npx sequelize seed:generate --name seeder-games (jadi ada file seeder-game di folder seeders)
+- setup file yang baru itu
+- npx sequelize db:seed:all
